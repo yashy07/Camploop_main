@@ -5,12 +5,13 @@
    Security on each table is what actually protects the data.
    ========================================================================== */
 
-const SUPABASE_URL = 'https://qympmgmkmbrvnzlfyomu.supabase.co';
-const SUPABASE_ANON_KEY='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InF5bXBtZ21rbWJydm56bGZ5b211Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODk4ODU5NTMsImV4cCI6MjEwNTQ2MTk1M30.AVHVjBL1dNB2DEdNib5P-67ixwiCONq7gy2mZJlMP7k'
-const supabaseClient = window.supabase.createClient(
-    SUPABASE_URL,
-    SUPABASE_ANON_KEY
-);
+   const SUPABASE_URL = 'https://zcvqlgizstmfmbjfwvnf.supabase.co';
+   const SUPABASE_ANON_KEY = 'sb_publishable_9AaePClSAf01M55gXBoWyQ_VvOa2Cei';
+
+   const supabaseClient = window.supabase.createClient(
+       SUPABASE_URL,
+       SUPABASE_ANON_KEY
+   );
 
 
 
